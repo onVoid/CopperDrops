@@ -1,0 +1,19 @@
+modLoader="javafml" #mandatory
+loaderVersion="[39,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="MIT License"
+[[mods]] #mandatory
+modId="copperdrops" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Copper Drops" #mandatory
+logoFile="copperdrops.png" #optional
+credits="" #optional
+authors="onVoid" #optional
+description='''
+Decreases drops of Copper Ore to balance gameplay.
+'''
+[[dependencies.copperdrops]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[39,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
