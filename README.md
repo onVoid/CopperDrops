@@ -1,6 +1,6 @@
-# Mod Name
-Description
+# Copper Drops
+Decreases Copper Ore's drops to balance gameplay.
 
-<img src="https://onvoid.net/mod-name/logo.png" height="50px" />
+<img src="https://onvoid.net/copperdrops/logo.png" height="50px" />
 
-![1.18.1](https://github.com/onVoid/forge-template/actions/workflows/build.yml/badge.svg?branch=1.18.1)
+![1.18.1](https://github.com/onVoid/CopperDrops/actions/workflows/build.yml/badge.svg?branch=1.18.1)
