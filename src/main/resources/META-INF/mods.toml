@@ -1,5 +1,5 @@
 modLoader="javafml" #mandatory
-loaderVersion="[39,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+loaderVersion="[37,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 license="MIT License"
 issueTrackerURL="https://github.com/onVoid/CopperDrops/issues"
 
@@ -20,6 +20,6 @@ configBackground="minecraft:textures/block/cut_copper.png"
 [[dependencies.copperdrops]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
-    versionRange="[39,)" #mandatory
+    versionRange="[37,)" #mandatory
     ordering="NONE"
     side="BOTH"
