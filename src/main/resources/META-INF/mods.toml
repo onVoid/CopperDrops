@@ -1,16 +1,22 @@
 modLoader="javafml" #mandatory
 loaderVersion="[39,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 license="MIT License"
+issueTrackerURL="https://github.com/onVoid/CopperDrops/issues"
+
 [[mods]] #mandatory
 modId="copperdrops" #mandatory
 version="${file.jarVersion}" #mandatory
 displayName="Copper Drops" #mandatory
+displayURL="https://www.curseforge.com/minecraft/mc-mods/copper-drops"
+updateJSONURL="https://onvoid.net/copperdrops/update.json"
 logoFile="copperdrops.png" #optional
+logoBlur=false
 credits="" #optional
 authors="onVoid" #optional
-description='''
-Decreases drops of Copper Ore to balance gameplay.
-'''
+description="Decreases drops of Copper Ore to balance gameplay."
+itemIcon="minecraft:raw_copper"
+configBackground="minecraft:textures/block/cut_copper.png"
+
 [[dependencies.copperdrops]] #optional
     modId="forge" #mandatory
     mandatory=true #mandatory
