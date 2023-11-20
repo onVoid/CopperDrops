@@ -13,8 +13,8 @@ plugins {
 }
 apply plugin: 'net.minecraftforge.gradle'
 
-version = "${mc_version}-${mod_version}"
-group = 'com.onVoid.copperdrops' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+version = "${mod_version}"
+group = 'net.brnbrd.copperdrops' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'CopperDrops'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
