@@ -1,6 +1,6 @@
 # Copper Drops
 Decreases Copper Ore's drops to balance gameplay.
 
-<img src="https://onvoid.net/copperdrops/logo.png" height="50px" />
+<img src="https://raw.githubusercontent.com/brnbrd/CopperDrops/1.19/src/main/resources/copperdrops.png" height="50px" />
 
-![1.18.1](https://github.com/onVoid/CopperDrops/actions/workflows/build.yml/badge.svg?branch=1.18.1)
+![](https://github.com/onVoid/CopperDrops/actions/workflows/build-1.19.yml/badge.svg?branch=1.19)
