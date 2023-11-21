@@ -37,3 +37,10 @@ configBackground="minecraft:textures/block/cut_copper.png"
     versionRange="[0,)"
     ordering="AFTER"
     side="BOTH"
+
+[[dependencies.copperdrops]]
+    modId="bno"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
