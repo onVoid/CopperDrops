@@ -11,11 +11,17 @@ displayURL="https://www.curseforge.com/minecraft/mc-mods/copper-drops"
 updateJSONURL="https://raw.githubusercontent.com/brnbrd/CopperDrops/1.20/update.json"
 logoFile="copperdrops.png"
 logoBlur=false
-credits=""
 authors="brnbrd"
 description="Decreases drops of Copper Ore to balance gameplay."
 itemIcon="minecraft:raw_copper"
 configBackground="minecraft:textures/block/cut_copper.png"
+
+[[dependencies.copperdrops]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
 
 [[dependencies.copperdrops]]
     modId="ad_astra"
