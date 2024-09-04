@@ -1,28 +1,21 @@
-modLoader="lowcodefml" #mandatory
-loaderVersion="[41,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+modLoader="lowcodefml"
+loaderVersion="[1,)"
 license="MIT License"
 issueTrackerURL="https://github.com/brnbrd/CopperDrops/issues"
 
-[[mods]] #mandatory
-modId="copperdrops" #mandatory
-version="${file.jarVersion}" #mandatory
-displayName="Copper Drops" #mandatory
+[[mods]]
+modId="copperdrops"
+version="${file.jarVersion}"
+displayName="Copper Drops"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/copper-drops"
-updateJSONURL="https://onvoid.net/copperdrops/update.json"
-logoFile="copperdrops.png" #optional
+updateJSONURL="https://raw.githubusercontent.com/brnbrd/CopperDrops/1.20/update.json"
+logoFile="copperdrops.png"
 logoBlur=false
-credits="" #optional
-authors="brdle" #optional
+credits=""
+authors="brnbrd"
 description="Decreases drops of Copper Ore to balance gameplay."
 itemIcon="minecraft:raw_copper"
 configBackground="minecraft:textures/block/cut_copper.png"
-
-[[dependencies.copperdrops]] #optional
-    modId="forge" #mandatory
-    mandatory=true #mandatory
-    versionRange="[41,)" #mandatory
-    ordering="NONE"
-    side="BOTH"
 
 [[dependencies.copperdrops]]
     modId="ad_astra"
